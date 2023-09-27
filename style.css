@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+
+body{
+    background-color: #181918;
+}
+img{
+    width: 100%;
+}
+
+nav{
+    background-color: rgb(249, 236, 220);
+    height: 15%;
+
+
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+@media (min-width: 300px){
+    
+    
+    nav img{
+        height: 9vh;
+        width: auto;
+        margin-right: 0.5rem;
+    }
+
+    nav{
+        display: flex;
+        justify-content: center;
+        height: 4rem;
+        
+        color: black;
+        
+    }
+    
+    nav h1{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bolder;
+        font-size: 1.5rem;
+        color: black;
+    }
+    .one h2,p{
+        text-align: center;
+        padding: 1vh 0;
+    }
+
+    .one h2{
+        margin-top: 5vh;
+    }
+
+    .two{
+        background-color: white;
+        padding: 1.5rem;
+        width: 80%;
+        margin: 3vh auto;
+        border-radius: 12px;
+
+    }
+    .two label{
+        color: black;
+        font-size: 1.1rem;
+    }
+
+    .two input[type="text"]{
+        border: none;
+        padding: 0.8rem;
+        outline: none;
+        border-radius: 1.2rem;
+        width: 90%;
+        color: black;
+    }
+
+    .two input[type="email"]{
+        border: none;
+        padding: 0.8rem;
+        outline: none;
+        border-radius: 1.2rem;
+        width: 90%;
+        color: black;
+    }
+
+    .two input[type="radio"], input[type="cheakbox"]{
+        margin-right: 1rem;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        
+        
+    }
+
+    .checkboxes{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .button{
+        background-color: brown;
+        font-weight: bold;
+        outline: none;
+        border: none;
+        width: 90%;
+        padding: 1rem;
+        border-radius: 12px;
+        margin-top: 3vh;
+    }
+
+    .equipment h3{
+        text-align: center;
+
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    
+
+    .card{
+        background-color:white;
+        border-radius: 12px;
+        padding: 2rem;
+        margin: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    
+    }
+
+
+    
+
+
+
+    .segmentA{
+        background-color: white;
+        display: flex;
+        
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+    .segmentA h3{
+        color: black;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+    }
+    .segmentA img{
+        width: 50%;
+        margin-left: 3.5rem;
+    }
+
+    .segmentB{
+        background-color: black;
+    }
+    .segmentB h3{
+        text-align: center;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        color: rgb(247, 242, 242);
+    }
+    .segmentB img{
+        width: 50%;
+        margin-left: 3.5rem;
+    }
+}
+
+@media (min-width: 700px){
+    .one h2,p{
+        font-size: 1.6rem ;
+    }
+    .featherd-friends h3{
+        font-size:1.6rem;
+    }
+    .cards{
+        margin: 4.5rem;
+    }
+    .segments{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media(min-width:900px){
+    nav{
+        width: 100%;
+        background:white;
+    }
+    .one h2,p{
+         display: none;
+    } 
+    .hero{
+        display: flex;
+        flex-direction: row-reverse;
+        width: 90%;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+
+    .two{
+        margin-top: 50px;
+        width: 50%;
+    }
+    .two label{
+        font-size: 0.7rem;
+    }
+    .two input[type="text"]{
+        font-size: 0.7rem;
+    }
+    .two form{
+        padding: 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .two{
+        padding: 2rem;
+    }
+    .two .button{
+        width: 100%;
+    }
+    
+    
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    .segmentA img{
+        width: 50%;
+    }
+
+    .segmentB img{
+        width: 50%;
+    }
+
+    .equipment h3{
+        font-size: 1rem;
+        margin: 10vh;
+        
+
+    }
+
+    .segmentA h3{
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+        color: white;
+
+    }
+
+    .segmentB h3{
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    .segmentA{
+        width: 40%;
+        background-color: black;
+        
+    }
+    .segmentB{
+        width:40%;
+    }
+
+    .underline:hover{
+    
+        cursor: pointer;
+    }
+   
+}
